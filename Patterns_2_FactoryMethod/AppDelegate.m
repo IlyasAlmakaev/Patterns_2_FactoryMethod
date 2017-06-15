@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ProductGenerator.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +15,23 @@
 
 @implementation AppDelegate
 
+- (void)saveExpenses:(int)aPrice {
+    
+    ProductGenerator *pd = [[ProductGenerator alloc] init];
+    Product *expence = [pd getProduct:aPrice];
+    [expence saveObject];
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [self saveExpenses:50];
+    [self saveExpenses:56];
+    [self saveExpenses:79];
+    [self saveExpenses:100];
+    [self saveExpenses:123];
+    [self saveExpenses:51];
+    
     return YES;
 }
 

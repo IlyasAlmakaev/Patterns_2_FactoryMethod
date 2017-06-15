@@ -13,6 +13,10 @@
 		284AC2621EF25EA8008CFE22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284AC2601EF25EA8008CFE22 /* Main.storyboard */; };
 		284AC2641EF25EA8008CFE22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284AC2631EF25EA8008CFE22 /* Assets.xcassets */; };
 		284AC2671EF25EA8008CFE22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284AC2651EF25EA8008CFE22 /* LaunchScreen.storyboard */; };
+		284AC2701EF25EF1008CFE22 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 284AC26F1EF25EF1008CFE22 /* Product.m */; };
+		284AC2731EF2635D008CFE22 /* Toy.m in Sources */ = {isa = PBXBuildFile; fileRef = 284AC2721EF2635D008CFE22 /* Toy.m */; };
+		284AC2761EF26375008CFE22 /* Dress.m in Sources */ = {isa = PBXBuildFile; fileRef = 284AC2751EF26375008CFE22 /* Dress.m */; };
+		284AC2791EF2640E008CFE22 /* ProductGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 284AC2781EF2640E008CFE22 /* ProductGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		284AC2631EF25EA8008CFE22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		284AC2661EF25EA8008CFE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		284AC2681EF25EA8008CFE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284AC26E1EF25EF1008CFE22 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		284AC26F1EF25EF1008CFE22 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		284AC2711EF2635D008CFE22 /* Toy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toy.h; sourceTree = "<group>"; };
+		284AC2721EF2635D008CFE22 /* Toy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toy.m; sourceTree = "<group>"; };
+		284AC2741EF26375008CFE22 /* Dress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dress.h; sourceTree = "<group>"; };
+		284AC2751EF26375008CFE22 /* Dress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dress.m; sourceTree = "<group>"; };
+		284AC2771EF2640E008CFE22 /* ProductGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductGenerator.h; sourceTree = "<group>"; };
+		284AC2781EF2640E008CFE22 /* ProductGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,14 @@
 			children = (
 				284AC25A1EF25EA8008CFE22 /* AppDelegate.h */,
 				284AC25B1EF25EA8008CFE22 /* AppDelegate.m */,
+				284AC26E1EF25EF1008CFE22 /* Product.h */,
+				284AC26F1EF25EF1008CFE22 /* Product.m */,
+				284AC2711EF2635D008CFE22 /* Toy.h */,
+				284AC2721EF2635D008CFE22 /* Toy.m */,
+				284AC2741EF26375008CFE22 /* Dress.h */,
+				284AC2751EF26375008CFE22 /* Dress.m */,
+				284AC2771EF2640E008CFE22 /* ProductGenerator.h */,
+				284AC2781EF2640E008CFE22 /* ProductGenerator.m */,
 				284AC25D1EF25EA8008CFE22 /* ViewController.h */,
 				284AC25E1EF25EA8008CFE22 /* ViewController.m */,
 				284AC2601EF25EA8008CFE22 /* Main.storyboard */,
@@ -152,6 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				284AC25F1EF25EA8008CFE22 /* ViewController.m in Sources */,
+				284AC2731EF2635D008CFE22 /* Toy.m in Sources */,
+				284AC2701EF25EF1008CFE22 /* Product.m in Sources */,
+				284AC2791EF2640E008CFE22 /* ProductGenerator.m in Sources */,
+				284AC2761EF26375008CFE22 /* Dress.m in Sources */,
 				284AC25C1EF25EA8008CFE22 /* AppDelegate.m in Sources */,
 				284AC2591EF25EA8008CFE22 /* main.m in Sources */,
 			);
